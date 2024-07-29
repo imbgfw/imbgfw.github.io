@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>OneClick App 使用教程 | 爱无言</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://imbgfw.github.io/favicon.ico?v=1722221072867">
+<link rel="stylesheet" href="https://imbgfw.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="1、OneClick App 简介
+OneClick 是一款完全免费的App，OneClick App 支持iOS客户端和Android安卓客户端，支持 Shadowsocks/SS/VMess/Trojan 等主流代理加密协议。OneCl..." />
+    <meta name="keywords" content="OneClick,iOS客户端,代理客户端" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://imbgfw.github.io">
+        <img src="https://imbgfw.github.io/images/avatar.png?v=1722221072867" class="site-logo">
+        <h1 class="site-title">爱无言</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      ——此心光明，亦复何言。
+    </div>
+    <div class="site-footer">
+      版权归 <a href="https://imbgfw.github.io" target="_blank">爱无言</a> 所有 | <a class="rss" href="https://imbgfw.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">OneClick App 使用教程</h2>
+            <div class="post-date">2024-07-27</div>
+            
+              <div class="feature-container" style="background-image: url('https://imbgfw.github.io/post-images/oneclick-app-shi-yong-jiao-cheng.png')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <h2 id="1-oneclick-app-简介">1、OneClick App 简介</h2>
+<p>OneClick 是一款完全免费的App，OneClick App 支持iOS客户端和Android安卓客户端，支持 Shadowsocks/SS/VMess/Trojan 等主流代理加密协议。OneClick 是为数不多的支持苹果手机的免费iOS代理客户端，可以通过手机扫码，或手动添加订阅等方式导入订阅节点。</p>
+<!-- more -->
+<h2 id="2-oneclick-app-客户端下载">2、OneClick App 客户端下载</h2>
+<p>OneClick官方网站：<a href="https://oneclick.earth/">点击访问OneClick官网</a></p>
+<h3 id="21-oneclick官方下载">2.1 OneClick官方下载</h3>
+<ul>
+<li>OneClick项目官网下载：<a href="https://oneclick.earth/files/app-googlePlay-armeabi-v7a-release.apk">点击下载安卓客户端</a></li>
+<li>Google Play 商店下载：<a href="https://play.google.com/store/apps/details?id=earth.oneclick">点击直达谷歌商店安装</a></li>
+<li>苹果AppStore下载: <a href="https://apps.apple.com/us/app/id1545555197">点击直达苹果应用商店安装</a></li>
+</ul>
+<h3 id="22-第三方网盘备份下载">2.2 第三方网盘备份下载</h3>
+<ul>
+<li>OneClick App 网盘备份下载1：<a href="https://www.mediafire.com/folder/cc3b1h19vgh1b/xgCloud%E4%BB%A3%E7%90%86%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6">点击直达网盘下载</a></li>
+<li>OneClick App 网盘备份下载2：<a href="https://u.pcloud.link/publink/show?code=kZSxSC0Zh3nvpfeNLlS437nMXxny5S15sosk">点击直达网盘下载</a></li>
+</ul>
+<h2 id="2-oneclick-app-使用教程">2、OneClick App 使用教程</h2>
+<h3 id="21-获取订阅地址">2.1 获取订阅地址</h3>
+<p>首先，我们登录xgCloud官方网站，找到复制订阅地址处，并点击“一键订阅”。在弹出的窗口中，我们可以选择“复制订阅地址”，将订阅地址复制到剪贴板，或选择“扫码二维码订阅”，然后打开 OneClick App，扫码二维码添加订阅，然后更新获取节点。如下图所示：<br>
+<img src="https://imbgfw.github.io/post-images/1722178773265.png" alt="" loading="lazy"><br>
+一般情况下，我们使用机场订阅，不需要使用手动添加单节点的方式，那是真的太麻烦了！</p>
+<h3 id="22-添加订阅地址并获取服务器节点">2.2 添加订阅地址，并获取服务器节点</h3>
+<p>现在，我们使用 OneClick App 客户端获取订阅节点有以下四种方式，请选择使用自己的方式，机场一般使用扫码或通过订阅地址方式添加。</p>
+<h4 id="221-扫码添加订阅">2.2.1 扫码添加订阅</h4>
+<p>我们打开 OneClick App，然后点击右上角的“+”按钮，进入添加服务器界面，点击“扫描二维码”按钮，扫描服务器二维码信息完成添加流程。<br>
+<img src="https://imbgfw.github.io/post-images/1722065957106.png" alt="" loading="lazy"><br>
+<img src="https://imbgfw.github.io/post-images/1722066014475.png" alt="" loading="lazy"></p>
+<h4 id="222-通过订阅地址添加">2.2.2 通过订阅地址添加</h4>
+<p>提前复制服务器的订阅地址，进入App，点击右上角的“+”按钮，进入添加服务器界面，点击“添加订阅”按钮，把复制好的订阅地址粘贴到地址栏，同时填写备注信息，最后点击右上角的确认按钮完成添加。<br>
+<img src="https://imbgfw.github.io/post-images/1722065965113.png" alt="" loading="lazy"><br>
+<img src="https://imbgfw.github.io/post-images/1722066061971.png" alt="" loading="lazy"><br>
+<img src="https://imbgfw.github.io/post-images/1722066066344.png" alt="" loading="lazy"></p>
+<h4 id="223-从剪贴板导入">2.2.3 从剪贴板导入</h4>
+<p>提前复制服务器的地址，进入App，点击右上角的“+”按钮，进入添加服务器界面，点击“添加配置”按钮，选择“从剪贴板导入”，即可自动导入服务器。<br>
+<img src="https://imbgfw.github.io/post-images/1722066118486.png" alt="" loading="lazy"><br>
+<img src="https://imbgfw.github.io/post-images/1722066126986.png" alt="" loading="lazy"><br>
+<img src="https://imbgfw.github.io/post-images/1722066132070.png" alt="" loading="lazy"></p>
+<h4 id="224-手动填写">2.2.4 手动填写</h4>
+<p>进入App，点击右上角的“+”按钮，进入添加服务器界面，点击“添加配置”按钮，选择想要添加的协议配置，填写服务器配置信息，最后点击右上角的确认按钮完成添加。<br>
+<img src="https://imbgfw.github.io/post-images/1722066147490.png" alt="" loading="lazy"><br>
+<img src="https://imbgfw.github.io/post-images/1722066153794.png" alt="" loading="lazy"><br>
+<img src="https://imbgfw.github.io/post-images/1722066171886.png" alt="" loading="lazy"><br>
+<img src="https://imbgfw.github.io/post-images/1722066176005.png" alt="" loading="lazy"></p>
+<h2 id="3-选择节点">3、选择节点</h2>
+<p>进入App首页，点击服务器选择按钮，进入服务器列表界面，选择需要连接的服务器<br>
+<img src="https://imbgfw.github.io/post-images/1722066222827.png" alt="" loading="lazy"></p>
+<h2 id="4-选择代理模式">4、选择代理模式</h2>
+<p>OneClick App 支持自动、全局和直连3种模式，点击选择指定模式。</p>
+<ul>
+<li>自动模式：自动模式是指境外的网站走代理访问，国内的网站不会通过代理服务器。</li>
+<li>全局模式：全局模式是指所有网站通过代理访问，包括在国内可以直连的网站。</li>
+<li>直连模式：是指所有的服务器都不走代理服务器。</li>
+</ul>
+<h2 id="5-连接服务器">5、连接服务器</h2>
+<p>选择好模式，我们点击 OneClick App 首页界面的“连接”按钮，即可连接服务器。<br>
+注意事项：当我们首次启动时，会请求 VPN 权限，请点击“确定”允许。<br>
+<img src="https://imbgfw.github.io/post-images/1722066288217.png" alt="" loading="lazy"></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://imbgfw.github.io/tag/SYIbIuB6-/" class="tag">
+                    OneClick
+                  </a>
+                
+                  <a href="https://imbgfw.github.io/tag/MxmvFENFiM/" class="tag">
+                    iOS客户端
+                  </a>
+                
+                  <a href="https://imbgfw.github.io/tag/RUpREHebEj/" class="tag">
+                    代理客户端
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://imbgfw.github.io/post/hiddify-ke-hu-duan-shi-yong-jiao-cheng/">
+                  <h3 class="post-title">
+                    Hiddify客户端使用教程
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
